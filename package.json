@@ -1,0 +1,36 @@
+{
+  "name": "lexical-input",
+  "version": "0.1.0",
+  "description": "Advanced HTML text input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingualect/lexical-input.git"
+  },
+  "keywords": [
+    "lingualect"
+  ],
+  "author": "James Snowden",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lingualect/lexical-input/issues"
+  },
+  "homepage": "https://github.com/lingualect/lexical-input#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.4",
+    "babel-plugin-transform-es2015-block-scoping": "^6.7.1",
+    "babel-plugin-transform-es2015-classes": "^6.6.5",
+    "babel-plugin-transform-es2015-modules-amd": "^6.6.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.6.5",
+    "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
+    "babel-plugin-transform-es2015-template-literals": "^6.6.5",
+    "document-register-element": "^0.5.4",
+    "postcss": "^5.0.19",
+    "postcss-nesting": "^2.3.1"
+  }
+}
