@@ -68,7 +68,7 @@
     var nextID = 0;
 
     function generateID() {
-        return '' + nextID++;
+        return 'lexical-input-' + nextID++;
     }
 
     var LexicalInput = function (_HTMLElement) {
