@@ -15,7 +15,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var nextID = 0;
 
 function generateID() {
-    return '';
+    return '' + nextID++;
 }
 
 var LexicalInput = function (_HTMLElement) {

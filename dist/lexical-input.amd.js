@@ -56,7 +56,7 @@ define(['exports'], function (exports) {
     var nextID = 0;
 
     function generateID() {
-        return '';
+        return '' + nextID++;
     }
 
     var LexicalInput = function (_HTMLElement) {

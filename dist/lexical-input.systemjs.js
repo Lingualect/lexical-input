@@ -34,7 +34,7 @@ System.register([], function (_export, _context) {
     }
 
     function generateID() {
-        return '';
+        return '' + nextID++;
     }
 
     return {
