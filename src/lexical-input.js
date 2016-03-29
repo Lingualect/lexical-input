@@ -43,13 +43,11 @@ export default class LexicalInput extends HTMLElement {
 
     template(data) {
         data = data || {};
-        if (data.id == null) {
-            data.id = generateID();
-        }
+        let id = data.id || generateID();
         return `
             <div class="content">
-                <input id="${data.id}__input" type="text" />
-                ${data.label ? `<label for="${data.id}__input">${data.label}</label>` : ''}
+                <input id="${id}__input" type="text" />
+                ${data.label ? `<label for="${id}__input">${data.label}</label>` : ''}
             </div>
             <div class="underline">
                 <div class="focused"></div>
