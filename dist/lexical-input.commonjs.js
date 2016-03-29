@@ -68,10 +68,8 @@ var LexicalInput = function (_HTMLElement) {
         key: 'template',
         value: function template(data) {
             data = data || {};
-            if (data.id == null) {
-                data.id = generateID();
-            }
-            return '\n            <div class="content">\n                <input id="' + data.id + '__input" type="text" />\n                ' + (data.label ? '<label for="' + data.id + '__input">' + data.label + '</label>' : '') + '\n            </div>\n            <div class="underline">\n                <div class="focused"></div>\n            </div>\n        ';
+            var id = data.id || generateID();
+            return '\n            <div class="content">\n                <input id="' + id + '__input" type="text" />\n                ' + (data.label ? '<label for="' + id + '__input">' + data.label + '</label>' : '') + '\n            </div>\n            <div class="underline">\n                <div class="focused"></div>\n            </div>\n        ';
         }
     }]);
 
