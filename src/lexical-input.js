@@ -2,7 +2,7 @@
 let nextID = 0;
 
 function generateID() {
-    return ``
+    return `${nextID++}`;
 }
 
 export default class LexicalInput extends HTMLElement {
